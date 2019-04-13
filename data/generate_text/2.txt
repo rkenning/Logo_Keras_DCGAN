@@ -1,0 +1,5 @@
+This group is for anyone interested in machine learning and its applications. Whether you are a beginner or an expert, please join to meet the machine learning community in Bath and the surrounding area.
+
+We aim to hold at least one event per month, featuring talks, workshops and collaborative projects.
+
+Feel free to join the discussion on the BathML Slack group (https://bathml.herokuapp.com/)!
