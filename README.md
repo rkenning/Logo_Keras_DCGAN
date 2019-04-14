@@ -1,10 +1,10 @@
 # Keras Text to Image Generation Project
 
-Text to Image using GloVe and Word2Vec with Generative Adversarial Network Models in Keras
+Text to Image using GloVe and Word2Vec with Generative Adversarial Network Models in Keras.
 
-Thanks to : Xianshun Chen where his original project generating Pokémon images provided the bases for my development
+Thanks to : Xianshun Chen where his original project generating Pokémon images which provided the bases for this project.
 
-Original Project here - https://github.com/chen0040/keras-text-to-image
+Xianshun's original Project here - https://github.com/chen0040/keras-text-to-image
 
 Note : I have streamlined the original project and picked one method of generating the model with keras while I continue to unpick how the model is being generated.
 
