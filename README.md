@@ -1,4 +1,4 @@
-# keras-text-to-image to generate Bath ML Meetup Logo
+# Keras Text to Image Generation Project
 
 Text to Image using GloVe and Word2Vec with Generative Adversarial Network Models in Keras
 
