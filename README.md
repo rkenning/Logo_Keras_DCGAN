@@ -2,11 +2,11 @@
 
 Text to Image using GloVe and Word2Vec with Generative Adversarial Network Models in Keras
 
-Thanks to : Xianshun Chen where his original project generating Pokomons provided the bases for my development
-Original Project - https://github.com/chen0040/keras-text-to-image'
+Thanks to : Xianshun Chen where his original project generating Pokémon images provided the bases for my development
 
+Original Project here - https://github.com/chen0040/keras-text-to-image
 
-I have streamlined the original project and picked one method of generating the model with keras
+Note : I have streamlined the original project and picked one method of generating the model with keras while I continue to unpick how the model is being generated.
 
 # Usage
 
@@ -14,7 +14,7 @@ I have streamlined the original project and picked one method of generating the 
 * Training Text files should be placed in /data/train_text
 * Execute dcgan_v3_train_BathML.py (Highly recomend using a GPU tensorflow install detailed below)
 * Text to be used for generation should be placed in the location /data/generate_text (Separate text files will generate separate images)
-* Execute dcgan_v3_generate_BathML.py (This doesn't require a GPU tensorflow install) & generated images should be written to the location /data/generated_images
+* Execute dcgan_v3_generate_BathML.py (This doesn't require a GPU tensorflow install and I tend to use one machine for Training and a lighter machine for generation where the model files should be transferred) & generated images should be written to the location /data/generated_images
 
 
 # Configure to run on GPU on Windows
