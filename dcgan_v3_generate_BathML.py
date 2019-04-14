@@ -24,8 +24,8 @@ def main():
     current_dir = current_dir if current_dir is not '' else '.'
 
 
-    txt_dir_path = current_dir + '/data/BathMLGen'
-    model_dir_path = 'C:/ModelTemp/models'
+    txt_dir_path = current_dir + '/data/generate_text'
+    model_dir_path = 'C:/ModelTemp/models' #Temp location I use fir models between machines
     from dcgan_v3 import DCGanV3
     gan = DCGanV3()
     gan.load_model(model_dir_path)
@@ -36,12 +36,12 @@ def main():
 
     for text in texts:
            generated_image = gan.generate_image_from_text(text)
-           filename = current_dir + '/data/outputs/' + DCGanV3.model_name + '-generated-' + str(counter) + '.png'
+           filename = current_dir + '/data/generated_images/' + DCGanV3.model_name + '-generated-' + str(counter) + '.png'
            print("Writing :"+filename)
            generated_image.save(filename)
            im = Image.open(filename)
            resize = im.resize((600,600))
-           filename = current_dir + '/data/outputs/' + DCGanV3.model_name + '-generated-' + str(counter) + '-big.png'
+           filename = current_dir + '/data/generated_images/' + DCGanV3.model_name + '-generated-' + str(counter) + '-big.png'
            resize.save(filename)
            counter += 1
 
